@@ -1,10 +1,10 @@
-rg { 
-resource "azurerm_resource_group" "rg01" {
+rgs = {
+
+"rg1" = { 
   name     = "MY-RSG-01"
   location = "Central India"
 }
-
-resource "azurerm_resource_group" "rg02" {
+"rg2" = { 
   name     = "MY-RSG-02"
   location = "Central India"
 }
